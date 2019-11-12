@@ -1,0 +1,12 @@
+wget -O odjazdy https://ztm.gda.pl/rozklady/pobierz_SIP.php?n[0]=1207
+cat odjazdy | grep -P --text 'td' | tr -d '<tr>','/' | tr '<td>' ' '
+lub
+wget -O - https://ztm.gda.pl/rozklady/pobierz_SIP.php?n[0]=1207 | grep -P --text 'td' | tr -d '<tr>','/' | tr '<td>' ' '
+
+wget -O - https://ztm.gda.pl/rozklady/pobierz_SIP.php?n[0]=1207 | grep -P --text '<td>' | sed 's/^ *//' | sed 's:</*[a-z_]*>::g'
+
+cat odjazdy |  grep -P --text '<td>' | tr -d '/' | sed 's/<td>/ /g' | sed 's/<[^>]*>//g'
+
+cat odjazdy |  grep -P --text '<td>' | tr -d '/' | sed 's/<td>/ /g' | sed 's/<[^>]*>//g' | sed 's/&nbsp;/juz/g'
+
+

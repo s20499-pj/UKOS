@@ -1,0 +1,12 @@
+<!-- p --><div style="background: #fff; margin-top: 1em; margin-bottom: 1em;"><table class="sip">
+<tr><th class="naglowek">Linia</th><th class="naglowek" style="min-width:200px;">Kierunek</th><th class="naglowek">Odjazd</th></tr>
+<tr><td><span class="juz">154</span></td><td><span class="juz">Orunia Górna</span></td><td>&nbsp;</td></tr>
+<tr><td><span class="juz">189</span></td><td><span class="juz">Maækowy</span></td><td>&nbsp;</td></tr>
+<tr><td><span class="juz">200</span></td><td><span class="juz">Pruszcz Osiedle Wschód</span></td><td>&nbsp;</td></tr>
+<tr><td>132</td><td>Pruszcz Rondo Kociewskie</td><td>19:18</td></tr>
+<tr><td>154</td><td>Orunia Górna</td><td>za 12 min</td></tr>
+<tr><td>189</td><td>Maækowy</td><td>za 20 min</td></tr>
+<tr><td>210</td><td>Orunia Go¶cinna</td><td>19:38</td></tr>
+<tr><td>154</td><td>Orunia Górna</td><td>za 27 min</td></tr>
+<tr><td>210</td><td>Orunia Go¶cinna</td><td>za 29 min</td></tr>
+</table><p style="font-size: 8pt; font-style:italic;margin-top: 0;text-align:center;">¬ród³o danych: narzêdzie oprogramowania SIP opracowane przez <a href="http://www.gmv.com">GMV</a></p>
