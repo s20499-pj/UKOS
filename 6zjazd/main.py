@@ -1,2 +1,4 @@
 #!/usr/bin/env python3
-print("Hello World")
+def main():
+	print("Hello World")
+main()
